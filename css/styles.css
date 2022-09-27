@@ -8,4 +8,8 @@
 
 @import "./components/social-card.css";
 
-@import "./components/list.css"
+@import "./components/list.css";
+
+@import "./components/button.css";
+
+@import "./components/image.css";
