@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins-bold';
+    src: url('./fonts/Poppins-Bold.ttf') format('truetype');
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hotpink;
+    color: #333;
+    font-family: "Poppins-regular", Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 6px 18px;
+    margin: 0 10px;
+    border-radius: 3px;
+   }
+   
+   .image-fluid {
+       width: 100%;
+       height: auto;
+   }
