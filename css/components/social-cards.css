@@ -1,18 +1,19 @@
-.social-section {
+.social-cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.social-card {
+.social-cards__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     border-radius: 4px;
-    background-color: #fafad2;
+    background-color: var(--tertiary-color);
     box-shadow: var(--shadow);
     max-width: 300px;
 }
+
